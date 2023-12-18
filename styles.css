@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;600;700&family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,200;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+/* body{
+    min-height: 1000px;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 50px;
+    background-color: #D2E0FB;
+ 
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    height: 100vh;
+    background-image: url("./images/electric-boiler-water-heater-blue-wall.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    background-size: cover;
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(4);
+}
+.header .content{
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+    
+}
+
+.header .content h1{
+    font-size: 3em;
+}
+
+.header .content p{
+     font-size: 1.2em;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+} */
+
+.header-top{
+/* margin-top: 260px; */
+background-image: url("./images/electric-boiler-water-heater-blu.jpg");
+height: 450px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding-top: 50px;
+margin-top: 60px;
+color: white;
+}
+.header-top h1{
+    font-size: 58px;
+    /* color:; */
+}
+.header-top img{
+  width: 110%;
+}
+.infopage{
+    background-color: #ecf4fe;
+    /* color: #0d6efd; */
+    text-align: justify;
+}
+.infopage{
+ line-height: 30px;
+}
+.infopage img{
+    width: 85%;
+}
+.line{
+    /* color: #0d6efd; */
+    border: 1px solid #0d6efd;
+    width: 90%;
+}
+.line1{
+    /* color: #0d6efd; */
+    border: 1px solid #0d6efd;
+    width:200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+  }
+  
+  .services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background-color: #D2E0FB;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    /* animation-name: example;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+  }
+  
+  /* @keyframes example{
+    0% {background-color: #0d6efd;}
+    25%{background-color: #1e9dc4;}
+    75%{background-color:  #D2E0FB;}
+    100% {background-color:#518eeb ;}
+  } */
+  .services .icon-box .icon i {
+    color: #151515;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+    /* color: white; */
+
+  }
+  
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    
+  }
+  
+  .services .icon-box h4 a {
+    color: #151515;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+  }
+  
+  .services .icon-box h4 a:hover {
+    color: #0d6efd;
+  }
+  
+  .services .icon-box p {
+    line-height: 14px;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 28px;
+  }
+  
+  .services .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+  }
+  .mailclick{
+    color: black;
+  }
+  .mailclick:hover{
+    color: #0d6efd !important;
+
+  }
+  .infopage h3{
+    padding-bottom: 13px;
+
+  }
+  .infopage1 img{
+    width: 85%;
+}
+.calltoaction-strip{
+    background-color: #FEFBF2;
+    padding: 25px 0;
+    color: #1f2a59;
+}
+nav{
+  background-color: #4D4C7D;
+  color: white;
+}
+.navbar-brand{
+  color: white !important;
+}
+/* .navbar-text .navingthing{
+  color: white !important;
+} */
+.mailclick1{
+  color: white !important;
+}
+.mailclick1 :hover{
+  color: #1f2a59 !important;
+}
+.navbar-text .nav-button{
+  background-color: #4D4C7D;
+  text-decoration: none;
+  color: #fff;
+   text-align: center;
+}
+
+.header-top .nav-button{
+  background-color: #0d6efd;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 38%;
+  line-height: 25px;
+  font-size: 18px;
+  border: 1px solid #0d6efd;
+}
+
+.footer,.footercta, .footer-page{
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+/* why choose us */
+
+.why-us h2 {
+  position: relative;
+  margin-bottom: 35px;
+}
+.why-us h2::after {
+  content: "";
+  width: 160px;
+  height: 3px;
+  display: inline-block;
+  background: #0d6efd;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin: 0 auto;
+}
+
+.why-us .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+  transition: 0.5s;
+  position: relative;
+  background-color: #4D4C7D;
+  height: 340px;
+  /* overflow: hidden; */
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.why-us .box:hover {
+padding: 30px 30px 70px 30px;
+box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+.why-us .box img {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0;
+transition:all ease 1s; 
+}
+.why-us .box:hover img {
+opacity: 1;
+}
+.why-us .box span {
+  display: block;
+  font-size: 56px;
+  font-weight: 700;
+  color: #8180af;
+  position: absolute;
+  right: 10px;
+  top: -40px;
+  text-shadow:#060606 5px -4px 6px;
+ transition: box-shadow 0.3s ease-in-out;
+  line-height: normal;
+}
+.why-us .box span:hover {
+  text-shadow:#060606 1px -2px 6px;
+   
+}
+.why-us .box h4 a {
+font-size: 24px;
+font-weight: 600;
+padding: 0;
+margin: 20px 0;
+color: #dadada;
+text-decoration: none;
+}
+.why-us .box p {
+color: #aaaaaa;
+font-size: 15px;
+margin: 0;
+padding: 0;
+}
+.why-us .box:hover span,
+.why-us .box:hover h4 a,
+.why-us .box:hover p {
+  color: #fff;
+}
+.footer{
+  background-color: #4D4C7D;
+  margin: 0;
+  color: white;
+  padding: 12px 0px;
+}
+
+.footercta{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.footercta:hover{
+  color:black ;
+}
+
+.navbar-toggler{
+  font-size: 15px;
+  background-color: white;
+
+}
+.overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Styles for the popup content */
+.popup {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 430px;
+  text-align: center;
+  position: relative;
+}
+
+/* Styles for the close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #ff0000;
+}
+
+/* Additional styles for the form */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.form-control1{
+  margin-bottom: 20px;
+}
+
+.header-privacy{
+  height: 250px;
+}
+.header-privacy h1 {
+  font-size: 40px;
+  padding-top: 65px;
+}
+.header-privacy h4 a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;  
+  padding-top: 65px;
+
+}
+.privacy-head-link{
+  color: white;
+}
+.privacy-head-link:hover{
+  color: black;
+
+}
+.header-thankyou{
+  height: 100%;
+}
+/* .header-thankyou h1,.backbutton{
+ text-align: center;
+ margin: 13%;
+} */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* This ensures the container takes the full height of the viewport */
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .Call-to-action{  
+    display: none;  
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Call-to-action{  
+    padding: 10px 0px;
+    background-color: #4D4C7D;
+    color: white;
+    font-size: 30px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  .Call-to-action a{
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .Call-to-action{  
+    display: none;  
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-item{
+        display: none;
+    }
+    .header-top{
+  background-size: cover;
+  /* padding-top: 70px; */
+  background-position: right;
+  /* color: black; */
+  text-align: left;
+height: 600px;
+}
+.header-top h1{
+  font-size: 36px;
+  /* width: 250px; */
+}
+.header-top h5{
+    font-size: 18px;
+  /* width: 210px; */
+
+  
+  }
+  .infopage img{
+    width: 100%;
+}
+.infopage1 img{
+    width: 100%;
+}
+.header-top img{
+  width: 100%;
+}
+.navbar-text i{
+  display: none;
+}
+.navbar-text > .mailclick1{
+  display: none;
+}
+.Call-to-action{  
+  padding: 10px 0px;
+  background-color: #4D4C7D;
+  color: white;
+  font-size: 30px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+.Call-to-action a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.popup {
+  margin-top: 29px;
+  height: 470px;
+  width: 322px;
+}
+.form-control1{
+  margin-bottom: 18px;
+  font-size: 1.0rem !important; 
+}
+.header-top .nav-button{
+  width: 72%;
+}
+.footer-page{
+ font-size: 16px;
+
+}
+.footer-page1{
+ margin-top: 13px;
+}
+.header-privacy h4 a{
+  padding-top: 23px;
+ 
+}
+.header-privacy h1 {
+  padding-top: 0px;
+}
+
+.header-privacy{
+  height: 240px;
+}
+.header-thankyou button{
+  width: 100%;
+}
+.header-thankyou{
+  height: 600px;
+  padding-top: 200px;
+}
+
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 0px 50px;
+}
+}
+
+.footer-page1{
+ font-weight: 300;
+}
+/* p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+} */
